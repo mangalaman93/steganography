@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Stegnography" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\Stegnography" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\Stegnography" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:\OpenCV2.0\include" />
+		</Compiler>
+		<Linker>
+			<Add library="C:\OpenCV2.0\lib\libcv200.dll.a" />
+			<Add library="C:\OpenCV2.0\lib\libcvaux200.dll.a" />
+			<Add library="C:\OpenCV2.0\lib\libcxcore200.dll.a" />
+			<Add library="C:\OpenCV2.0\lib\libcxts200.dll.a" />
+			<Add library="C:\OpenCV2.0\lib\libhighgui200.dll.a" />
+			<Add library="C:\OpenCV2.0\lib\libml200.dll.a" />
+			<Add directory="C:\OpenCV2.0\lib" />
+		</Linker>
+		<Unit filename="..\Decrypt.cpp" />
+		<Unit filename="..\Decrypt.h" />
+		<Unit filename="..\Decryption.cpp" />
+		<Unit filename="..\Decryption.h" />
+		<Unit filename="..\EncryptImage.cpp" />
+		<Unit filename="..\EncryptImage.h" />
+		<Unit filename="..\EncryptText.cpp" />
+		<Unit filename="..\EncryptText.h" />
+		<Unit filename="..\Encryption.cpp" />
+		<Unit filename="..\Encryption.h" />
+		<Unit filename="..\MyHuffman.cpp" />
+		<Unit filename="..\MyHuffman.h" />
+		<Unit filename="..\main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
