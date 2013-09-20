@@ -1,0 +1,10 @@
+# Compiled files #
+*.exe
+*.o
+*.depend
+*.layout
+
+# bin folder #
+obj/
+bin/
+build/
